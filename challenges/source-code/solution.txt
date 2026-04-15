@@ -1,0 +1,5 @@
+Open the HTML file in a browser.
+Right click and choose View Page Source, or press Ctrl+U / Cmd+Option+U.
+
+The hidden HTML comment contains the flag:
+flag{view_source_to_find_me}

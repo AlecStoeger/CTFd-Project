@@ -1,0 +1,9 @@
+Open the pcap in Wireshark.
+
+Filter:
+http
+
+Inspect the HTTP requests and look for the flag in the query string.
+
+Flag:
+flag{packets_tell_stories}

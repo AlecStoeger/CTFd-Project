@@ -1,0 +1,2 @@
+Submit this flag:
+flag{welcome_to_ctf}

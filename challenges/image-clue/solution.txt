@@ -1,0 +1,7 @@
+Download the image and inspect its contents.
+
+One way:
+strings dr404.jpg | grep flag
+
+Flag:
+flag{strings_can_find_hidden_data}

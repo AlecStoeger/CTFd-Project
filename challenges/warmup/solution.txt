@@ -1,0 +1,3 @@
+The flag is directly shown in the challenge description.
+
+flag{welcome_to_ctf}
