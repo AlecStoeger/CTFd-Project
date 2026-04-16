@@ -1,0 +1,26 @@
+id,name,description,attribution,connection_info,next_id,max_attempts,value,category,type,state,logic,initial,minimum,decay,position,function,requirements
+1,exiftool,"<html>
+
+<head>
+  <title>Company Emails</title>
+</head>
+
+<body>
+  <p>You stumbled across a leaked company email</p>
+  <p>Hint: what tools can be used to see email metadata?</p>
+</body>
+
+</html>
+",,,,0,100,OSINT & Metadata Analysis,standard,visible,any,,,,0,static,
+2,sql magic,"<html>
+
+<head>
+  <title>Dr's Form</title>
+</head>
+
+<body>
+  <span>Login to our new website at http://localhost:8080 </span>
+</body>
+
+</html>
+",,,,0,200,web,standard,visible,any,,,,0,static,
