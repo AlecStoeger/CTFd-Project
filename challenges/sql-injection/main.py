@@ -38,6 +38,19 @@ def login():
             message = f"Error: {e}"
 
     return render_template_string('''
+        <style>
+          #header {
+            color: blue;
+            font-size: 5rem;
+          }
+        </style>
+      <div id="header">
+        Welcome to our app!
+      </div>
+      <div id="hint">
+        Login to your account. (Don't bother using "admin" as your username, we are
+        already using that name.)
+      </div>
         <form method="post">
             Username: <input type="text" name="username"><br>
             Password: <input type="password" name="password"><br>
