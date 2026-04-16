@@ -9,7 +9,7 @@ def init_dummy_db():
     cursor = conn.cursor()
     cursor.execute('CREATE TABLE users (username TEXT, password TEXT)')
     cursor.execute(
-        'INSERT INTO users VALUES ("admin", "CTF{SQL_1nj3ct10n_Succ3ss}")')
+        'INSERT INTO users VALUES ("admin", "flag{SQL_1nj3ct10n_Succ3ss}")')
     return conn
 
 
@@ -48,7 +48,7 @@ def login():
         Welcome to our app!
       </div>
       <div id="hint">
-        Login to your account. (Don't bother using "admin" as your username, we are
+        Find your account using our state-of-the-art SQL database! (Don't bother using "admin" as your username, we are
         already using that name.)
       </div>
         <form method="post">
