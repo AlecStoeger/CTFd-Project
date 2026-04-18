@@ -1,0 +1,23 @@
+id,name,description,connection_info,next_id,max_attempts,value,category,type,state,requirements
+1,Warmup,"Welcome to the CTF.
+
+Submit this flag:
+flag{welcome_to_ctf}",,,0,100,Misc,standard,visible,
+2,Forgotten Note,"Dr. 404 left behind a webpage file.
+There may be something hidden that the browser does not show directly.
+Download the file and inspect it.",,,0,150,Web,standard,visible,
+3,The Cryptic Image,"Investigators recovered an image from Dr. 404's files.
+It looks ordinary, but there may be more to it than what is visible.",,,0,200,Forensics,standard,visible,
+4,Network Breach,"A packet capture was recovered during the investigation.
+Search the traffic for anything suspicious or revealing.",,,0,250,Forensics,standard,visible,
+5,Exiftool,"You stumbled across a leaked company email
+
+Hint: what tools can be used to see email metadata?",,,0,200,OSINT & Metadata Analysis,standard,visible,
+6,sql-injection,"http://localhost:8080
+
+A web application login form has been provided.
+
+Test how the application handles user input and determine whether it is possible to bypass authentication.
+
+If successful, retrieve the hidden flag.
+",http://localhost:8080/,,0,200,Web,standard,visible,
